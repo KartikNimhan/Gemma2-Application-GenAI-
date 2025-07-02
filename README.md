@@ -1,1 +1,1 @@
-# Gemma2-Application-GenAI-
+# Gemma2-Application-GenAI
