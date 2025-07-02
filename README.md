@@ -41,7 +41,7 @@ This app uses the **Gemma 2B** variant, which:
 ---
 ````markdown
 
-## 🖥️ Prerequisites
+ 🖥️ Prerequisites
 
 - Python 3.9+
 - [Ollama installed](https://ollama.com)
