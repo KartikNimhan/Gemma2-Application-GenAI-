@@ -125,7 +125,7 @@ Try asking:
 
 ## 📸 Screenshot
 
-*Add a screenshot of your Streamlit interface here.*
+![Image](https://github.com/user-attachments/assets/39be4d73-3a89-429e-a372-9bad12db9fa8)
 
 ---
 
