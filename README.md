@@ -1,10 +1,3 @@
-Here's a **clean and professional `README.md`** for your GitHub project, with **proper markdown formatting** and presentation for **Gemma 2B with LangChain, Streamlit, and Ollama**.
-
-You can directly **copy-paste this into your `README.md` file**:
-
----
-
-````markdown
 # 🧠 LangChain Chatbot using Gemma 2B (Ollama + Streamlit)
 
 A lightweight, local-first **Generative AI chatbot** powered by [Google’s Gemma 2B model](https://ai.google.dev/gemma), built using **LangChain**, **Ollama**, and **Streamlit**.
