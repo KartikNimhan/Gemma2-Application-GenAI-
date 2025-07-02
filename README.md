@@ -1,3 +1,4 @@
+````markdown
 # 🧠 LangChain Chatbot using Gemma 2B (Ollama + Streamlit)
 
 A lightweight, local-first **Generative AI chatbot** powered by [Google’s Gemma 2B model](https://ai.google.dev/gemma), built using **LangChain**, **Ollama**, and **Streamlit**.
@@ -45,8 +46,9 @@ This app uses the **Gemma 2B** variant, which:
 - Python 3.9+
 - [Ollama installed](https://ollama.com)
 - Pull the Gemma 2B model:
-  ```bash
-  ollama pull gemma:2b
+
+```bash
+ollama pull gemma:2b
 ````
 
 ---
@@ -55,38 +57,45 @@ This app uses the **Gemma 2B** variant, which:
 
 1. **Clone this repository**:
 
-   ```bash
-   git clone https://github.com/KartikNimhan/Gemma2-Application-GenAI-.git
-   cd Gemma2-Application-GenAI-
-   ```
+```bash
+git clone https://github.com/KartikNimhan/Gemma2-Application-GenAI-.git
+cd Gemma2-Application-GenAI-
+```
 
-2. **Create a virtual environment** *(recommended)*:
+2. **Create a virtual environment** (recommended):
 
-   ```bash
-   python -m venv venv
-   # Activate it:
-   venv\Scripts\activate      # On Windows
-   source venv/bin/activate   # On macOS/Linux
-   ```
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+```bash
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+```
 
 3. **Install dependencies**:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 4. **Start Ollama in a new terminal**:
 
-   ```bash
-   ollama serve
-   ollama run gemma:2b
-   ```
+```bash
+ollama serve
+ollama run gemma:2b
+```
 
 5. **Run the Streamlit app**:
 
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+streamlit run app.py
+```
 
 ---
 
@@ -100,7 +109,7 @@ LANGCHAIN_API_KEY=your_langchain_api_key
 LANGCHAIN_PROJECT=GemmaChat
 ```
 
-> 💡 OpenAI API key is only a placeholder — not required to use Gemma locally.
+> 💡 `OPENAI_API_KEY` is just a dummy value – it's not used when running locally with Ollama.
 
 ---
 
@@ -116,7 +125,7 @@ Try asking:
 
 ## 📸 Screenshot
 
-> *Add a screenshot of your app interface here.*
+*Add a screenshot of your Streamlit interface here.*
 
 ---
 
@@ -131,7 +140,7 @@ Try asking:
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -141,9 +150,5 @@ This project is licensed under the [MIT License](LICENSE).
 Machine Learning & GenAI Enthusiast
 [GitHub Profile](https://github.com/KartikNimhan)
 
-```
+````
 
----
-
-
-```
